@@ -1,0 +1,11 @@
+replicas: 3
+port: 8000
+
+image:
+  repository: public.ecr.aws/q2w5i2w9/biz-order
+  tag: v1
+  imagePullPolicy: IfNotPresent
+  containerPort: 8081
+
+domain: bk9797.click
+subdomain: rollouts-demo
