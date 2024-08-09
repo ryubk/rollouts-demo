@@ -3,7 +3,7 @@ port: 8000
 
 image:
   repository: public.ecr.aws/q2w5i2w9/biz-order
-  tag: v1
+  tag: v2
   imagePullPolicy: IfNotPresent
   containerPort: 8081
 
